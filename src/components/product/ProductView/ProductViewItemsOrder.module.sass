@@ -1,7 +1,7 @@
 .ProductViewItemsOrder
   display: grid
   grid-template-columns: auto 1fr
-  grid-gap: 1.25rem
+  gap: 1.25rem
   margin-top: 2rem
   &__itemsCount
     display: flex
@@ -48,3 +48,11 @@
     cursor: pointer
     color: white
     margin-top: auto
+  @media screen and ( max-width: 768px )
+    grid-template-columns: 1fr
+    &__itemsCount
+      & > p
+        font-size: 1rem
+    &__submit
+      font-weight: normal
+      font-size: 1rem
