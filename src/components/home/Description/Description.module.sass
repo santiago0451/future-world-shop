@@ -1,7 +1,7 @@
 .Description
   display: grid
   grid-template-columns: 1fr 1fr
-  column-gap: 2.25rem
+  gap: 2.25rem
   max-width: 1000px
   margin: 6rem auto
   padding: 2rem 2.5rem
@@ -31,3 +31,7 @@
       font-size: 1.5rem
       line-height: 1.75
       color: $text-color
+  @media screen and (max-width: 768px) 
+    grid-template-columns: 1fr
+    &__imageContainer
+      width: 100%
