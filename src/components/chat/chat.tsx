@@ -41,8 +41,8 @@ export const Chat = (props: { agent: string }) => {
           })}
       </section>
       <p className={styles.Chat__info}>
-        If you don't get any response, it's because the Open AI quota is already
-        exceeded. 😅
+        If you don&apos;` get any response, it&apos;s because the Open AI quota
+        is already exceeded. 😅
       </p>
     </main>
   );
